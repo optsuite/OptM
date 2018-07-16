@@ -46,7 +46,6 @@
 > > # Copyright
 > > -------------------------------------------------------------------------
 > >   Copyright (C) 2018, Zaiwen Wen and Wotao Yin
-
 > >   Copyright (C) 2010, Zaiwen Wen and Wotao Yin
 > >
 > >   This program is free software: you can redistribute it and/or modify
