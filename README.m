@@ -21,6 +21,38 @@
 %
 %     Solver demo: test_eig_rand_demo.m, computing leading eigenvalues
 %
+%
+% Applications have been solved by these solvers:
+% 
+% - Homogeneous polynomial optimization problems 
+%   with multiple spherical constraints：
+%   \max \;  \sum_{1\le i\le n_1, 1\le j \le n_2, 1 \le k \le n_3, 
+%               1\le l \le n_4} a_{ijkl} x_i y_j z_k w_l \;  
+%   s.t., \|x\|_2 = \|y\|_2 = \|z\|_2 = \|w\|_2= 1,
+%   where A = (a_{ijkl}) is a fourth-order tensor of size 
+%   n\times n \times n\times n.
+%
+% - Maxcut SDP: \min  \mathrm{Tr}(CX), s.t., X_{ii}=1, X \succeq 0
+%
+% - SDP: \min \mathrm{Tr}(CX), s.t., \mathrm{Tr}(X)=1, X \succeq 0 
+%
+% - Low-Rank Nearest Correlation  Estimation:
+%   \min_{ X \succeq 0} \; \frac{1}{2} \| H \odot (X - C) \|_F^2,
+%   \; X_{ii} = 1, \; i = 1, \ldots, n, \; \mathrm{rank}(X) \le p.
+%
+% - The Bose–Einstein condensates (BEC) problem
+%
+% - Linear eigenvalue problems: 
+%   \min \mathrm{Tr}(X^{\top}AX), s.t., X^{\top}X =I 
+%
+% - The lectronic structure calculation: 
+%   the Kohn-Sham total energy minimization 
+%   the Hartree-Fock total energy minimization
+%
+% - Quadratic assignment problem
+%
+% - Harmonic energy minimization
+%
 %  For more general problems and solvers, see:
 %  Adaptive Regularized Newton Method for Riemannian Optimization
 %  https://github.com/wenstone/ARNT
@@ -42,6 +74,14 @@
 %  (4) Xinming Wu, Zaiwen Wen, and Weizhu Bao. A regularized Newton method
 %   for computing ground states of Bose–Einstein condensates. Journal of
 %   Scientific Computing (2017): 303-329.
+%
+%  (5) X. Zhang, J. Zhu, Z. Wen, A. Zhou, Gradient-type Optimization
+%   Methods for Electronic Structure Calculation, SIAM Journal on 
+%   Scientific Computing, Vol. 36, No. 3 (2014), pp. C265-C289
+%
+%  (6) R. Lai, Z. Wen, W. Yin, X. Gu, L. Lui, Folding-Free Global Conformal
+%   Mapping for Genus-0 Surfaces by Harmonic Energy Minimization, 
+%   Journal of Scientfic Computing, 58(2014), 705-725
 %
 %
 % -------------------------------------------------------------------------
