@@ -34,6 +34,9 @@
 > >
 > > - [Xinming Wu, Zaiwen Wen, and Weizhu Bao. A regularized Newton method for computing ground states of Bose–Einstein condensates. Journal of Scientific Computing (2017): 303-329.](https://link.springer.com/article/10.1007/s10915-017-0412-0)
 > >
+> > -	X. Zhang, J. Zhu, Z. Wen, A. Zhou, Gradient-type Optimization Methods for Electronic Structure Calculation, SIAM Journal on Scientific Computing, Vol. 36, No. 3 (2014), pp. C265-C289
+> >
+> > -	R. Lai, Z. Wen, W. Yin, X. Gu, L. Lui, Folding-Free Global Conformal Mapping for Genus-0 Surfaces by Harmonic Energy Minimization, Journal of Scientfic Computing, 58(2014), 705-725 
 > >
 > > # The Authors
 > > We hope that the package is useful for your application.  If you have any bug reports or comments, please feel free to email one of the toolbox authors:
@@ -46,6 +49,7 @@
 > > # Copyright
 > > -------------------------------------------------------------------------
 > >   Copyright (C) 2018, Zaiwen Wen and Wotao Yin
+> > 
 > >   Copyright (C) 2010, Zaiwen Wen and Wotao Yin
 > >
 > >   This program is free software: you can redistribute it and/or modify
