@@ -32,18 +32,18 @@
 %   where A = (a_{ijkl}) is a fourth-order tensor of size 
 %   n\times n \times n\times n.
 %
-% - Maxcut SDP: \min  \mathrm{Tr}(CX), s.t., X_{ii}=1, X \succeq 0
+% - Maxcut SDP: \min  Tr(CX), s.t., X_{ii}=1, X \succeq 0
 %
-% - SDP: \min \mathrm{Tr}(CX), s.t., \mathrm{Tr}(X)=1, X \succeq 0 
+% - SDP: \min Tr(CX), s.t., Tr(X)=1, X \succeq 0 
 %
 % - Low-Rank Nearest Correlation  Estimation:
 %   \min_{ X \succeq 0} \; \frac{1}{2} \| H \odot (X - C) \|_F^2,
-%   \; X_{ii} = 1, \; i = 1, \ldots, n, \; \mathrm{rank}(X) \le p.
+%   \; X_{ii} = 1, \; i = 1, \ldots, n, \; rank(X) \le p.
 %
 % - The Bose–Einstein condensates (BEC) problem
 %
 % - Linear eigenvalue problems: 
-%   \min \mathrm{Tr}(X^{\top}AX), s.t., X^{\top}X =I 
+%   \min Tr(X^{\top}AX), s.t., X^{\top}X =I 
 %
 % - The lectronic structure calculation: 
 %   the Kohn-Sham total energy minimization 
