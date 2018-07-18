@@ -45,7 +45,7 @@
 % - Linear eigenvalue problems: 
 %   \min Tr(X^{\top}AX), s.t., X^{\top}X =I 
 %
-% - The lectronic structure calculation: 
+% - The electronic structure calculation: 
 %   the Kohn-Sham total energy minimization 
 %   the Hartree-Fock total energy minimization
 %

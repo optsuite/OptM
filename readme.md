@@ -30,7 +30,7 @@ Applications have been solved by these solvers:
 - Low-Rank Nearest Correlation  Estimation: $ \min_{ X \succeq 0} \; \frac{1}{2} \| H \odot (X - C) \|_F^2, \; X_{ii} = 1, \; i = 1, \ldots, n, \; \mathrm{rank}(X) \le p.$
 - The Bose–Einstein condensates (BEC) problem
 - Linear eigenvalue problems: $\min \mathrm{Tr}(X^{\top}AX), s.t., X^{\top}X =I $
-- The lectronic structure calculation: the Kohn-Sham total energy minimization and the Hartree-Fock total energy minimization
+- The electronic structure calculation: the Kohn-Sham total energy minimization and the Hartree-Fock total energy minimization
 - Quadratic assignment problem
 - Harmonic energy minimization
 
