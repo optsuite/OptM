@@ -20,6 +20,8 @@
       Solver: OptStiefelGBB.m   
       Solver demo: test_eig_rand_demo.m, computing leading eigenvalues
 
+      QAP: TestQAPLIB_orth_fixmu_improve_selected.m. To run the code, first download qaplib from (https://www.opt.math.tugraz.at/qaplib/), then run GenQAPLIB.m to generate the data matrices in the matlab format.
+
 Applications have been solved by these solvers:
 
 - Homogeneous polynomial optimization problems with multiple spherical constraints：
